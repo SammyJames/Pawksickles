@@ -1,4 +1,11 @@
 ## Title: Pawksickles
 ## APIVersion: 100000
+## OptionalDependsOn: LibStub LibMediaProvider-1.0 LibAddonMenu-1.0
+## SavedVariables: PAWKSICKLES_DB
 
+libs/LibStub/LibStub.lua
+libs/LibMediaProvider-1.0/LibMediaProvider-1.0.lua
+libs/LibAddonMenu-1.0/LibAddonMenu-1.0.lua
+
+PawksicklesConfig.lua
 Pawksickles.lua
