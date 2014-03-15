@@ -144,7 +144,7 @@ function PawksicklesConfig:BeginAddingOptions()
                 function() return self.db[ gameFont ].face end, 
                 function( selection )  self:FontDropdownChanged( gameFont, selection ) end )
 
-            LAM:AddSlider( self.config_panel, self._name .. '_size_' .. i, 'Size', '', 8, 50, 1, 
+            LAM:AddSlider( self.config_panel, self._name .. '_size_' .. i, 'Size:', '', 5, 50, 1, 
                 function() return self.db[ gameFont ].size end, 
                 function( size ) self:SliderChanged( gameFont, size ) end )
 
