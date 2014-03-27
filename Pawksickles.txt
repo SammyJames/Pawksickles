@@ -1,5 +1,5 @@
 ## Title: Pawksickles
-## APIVersion: 100000
+## APIVersion: 100003
 ## OptionalDependsOn: LibStub LibMediaProvider-1.0 LibAddonMenu-1.0
 ## SavedVariables: PAWKSICKLES_DB
 
