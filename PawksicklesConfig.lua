@@ -105,7 +105,7 @@ local defaults =
 }
 
 local logical = {}
-local decorations = { 'none', 'soft-shadow-thin', 'soft-shadow-thick', 'shadow' }
+local decorations = { 'none', 'outline', 'thin-outline', 'thick-outline', 'soft-shadow-thin', 'soft-shadow-thick', 'shadow' }
 
 function PawksicklesConfig:FormatFont( fontEntry )
     local str = '%s|%d'
